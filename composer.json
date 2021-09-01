@@ -1,0 +1,20 @@
+{
+    "name": "lidyapos/revision",
+    "description": "Revision package",
+    "type": "package",
+    "autoload": {
+        "psr-4": {
+            "LidyaPos\\Revision\\": "src"
+        }
+    },
+    "require": {
+        "lidyapos/platform": "*@dev"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "LidyaPos\\Revision\\Providers\\RevisionServiceProvider"
+            ]
+        }
+    }
+}
